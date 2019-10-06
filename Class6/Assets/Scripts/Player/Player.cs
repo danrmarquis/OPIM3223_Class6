@@ -21,7 +21,6 @@ public class Player : MonoBehaviour
 	void collidedWithEnemy(Enemy enemy)
 	{
 		enemy.Attack(this);
-		// Enemy attack code
 		if (health <= 0)
 		{
 		}

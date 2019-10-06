@@ -65,8 +65,10 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraRig.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyProducer.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerShooting.cs" />
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/danielmarquis/Documents/GitHub/OPIM3223_Class6/Class6/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
