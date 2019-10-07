@@ -1,13 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
 	public int health = 3;
+    public event Action<Player> onPlayerDeath;
 
-	// Start is called before the first frame update
-	void Start()
+    // Start is called before the first frame update
+    void Start()
     {
         
     }
@@ -23,6 +25,10 @@ public class Player : MonoBehaviour
 		enemy.Attack(this);
 		if (health <= 0)
 		{
+            if(onPlayerDeath != null)
+            {
+                onPlayerDeath(this);
+            }
 		}
 	}
 
