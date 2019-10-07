@@ -13,4 +13,11 @@ Advanced Scripting in Unity!
 7. Game Controller
 
 #### Resources
+- [Unity Collisions](https://docs.unity3d.com/ScriptReference/Collision.html)
+- [Vector3.MoveTowards](https://docs.unity3d.com/ScriptReference/Vector3.MoveTowards.html)
+- [Unity Ray API](https://docs.unity3d.com/ScriptReference/Ray.html)
+- [LayerMask API](https://docs.unity3d.com/ScriptReference/LayerMask.html)
+- [Quaternions](https://docs.unity3d.com/ScriptReference/Quaternion.html)
+- [Box Collider](https://docs.unity3d.com/ScriptReference/BoxCollider.html)
+- [Unity Events API](https://docs.unity3d.com/ScriptReference/Events.UnityEvent.html)
 
